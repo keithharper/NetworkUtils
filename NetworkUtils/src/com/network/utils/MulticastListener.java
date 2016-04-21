@@ -2,7 +2,7 @@ package com.network.utils;
 
 /**
  *
- * @author root
+ * @author Keith Harper
  */
 public interface MulticastListener {
     public void dataReceived(DataReceivedEvent event);

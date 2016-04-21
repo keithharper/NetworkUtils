@@ -1,16 +1,13 @@
 package com.network.utils;
 
-import java.awt.Event;
-import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
-import java.util.EventListener;
 
 /**
  *
- * @author kharper
+ * @author Keith Harper
  */
 public final class Multicast {
     public MulticastSocket mcastSocket;

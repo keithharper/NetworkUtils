@@ -1,5 +1,9 @@
 import com.network.utils.Multicast;
 
+/**
+ *
+ * @author Keith Harper
+ */
 public final class MulticastListenerTesterImpl extends MulticastListenerTester {
     public MulticastListenerTesterImpl(Multicast multi) {
         addListener(multi);

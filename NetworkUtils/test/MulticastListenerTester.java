@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 
 /**
  *
- * @author kharper
+ * @author Keith Harper
  */
 public abstract class MulticastListenerTester implements MulticastListener {
     public static void main(String[] args) {
