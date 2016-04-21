@@ -1,4 +1,3 @@
-
 import com.network.utils.Multicast;
 
 public final class MulticastListenerTesterImpl extends MulticastListenerTester {

@@ -50,7 +50,6 @@ public final class Multicast {
      *
      * @return
      * @throws IOException
-     * @throws InterruptedException
      */
     public synchronized Thread initReceiveData() throws IOException {
         byte[] buffer = new byte[1024];
