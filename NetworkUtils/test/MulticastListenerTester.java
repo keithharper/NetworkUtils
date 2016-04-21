@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
  *
  * @author Keith Harper
  */
-public abstract class MulticastListenerTester implements MulticastListener {
+public class MulticastListenerTester implements MulticastListener {
     public static void main(String[] args) {
         Executors.newSingleThreadExecutor().execute(() -> {
             try {
